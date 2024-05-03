@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 int main()
  { 
@@ -6,12 +6,12 @@ int main()
     int i,key,c=0,b,size;  
     printf("Enter the number of elements: ");
     scanf("%d", &size);
-    printf("Enter the array elements:\n");
+    printf("Enter the array elements:-\n");
     for(i = 0; i < size; i++)
 	{
         scanf("%d", &arr[i]);
     }
-    printf("Enter the elements to search: ");
+    printf("Enter the elements to search:- ");
     scanf("%d",&key);
     for(i=0;i<size;i++)
     {
@@ -22,8 +22,8 @@ int main()
 		}
 	}
 if(c==1)
-printf("element Found %d",b);
+printf("element found at postion =%d",b);
 else
-printf("element not Found");
+printf("element not found");
 return 0;
 }
